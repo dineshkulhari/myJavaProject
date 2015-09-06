@@ -18,15 +18,15 @@ public class ComputeAndInterpretBMI {
         double weight = input.nextDouble();
 
         // Enter the height
-        System.out.println("Enter the hight in Meter");
+        System.out.println("Enter the height in Inch");
         double height = input.nextDouble();
 
         double weightInKilogram = weight * KILOGRAM_PER_POUND ;
-        double heightInInch = height * METERS_PER_INCH ;
+        double heightInMeter = height * METERS_PER_INCH ;
 
+        double bmi = weightInKilogram / (heightInMeter * heightInMeter ) ;
 
-
-
+        System.out.println(bmi);
 
     }
 }
