@@ -21,6 +21,9 @@ public class ComputeAndInterpretBMI {
         System.out.println("Enter the hight in Meter");
         double height = input.nextDouble();
 
+        double weightInKilogram = weight * KILOGRAM_PER_POUND ;
+        double heightInInch = height * METERS_PER_INCH ;
+
 
 
 
